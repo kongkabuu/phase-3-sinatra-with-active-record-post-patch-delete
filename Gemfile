@@ -20,6 +20,10 @@ gem "rack-contrib", "~> 2.3"
 # https://github.com/ruby/rake
 gem "rake"
 
+gem "psych", "<4"
+
+gem "puma"
+
 # Provides functionality to interact with a SQLite3 database
 # https://github.com/sparklemotion/sqlite3-ruby
 gem "sqlite3", "~> 1.4"
